@@ -24,7 +24,7 @@
                 li.textContent = todo.content;
                 const deleteBtn = document.createElement('button');
                 deleteBtn.textContent = 'Delete';
-                deleteBtn.onclick = () => deleteItem(todo._id);
+                deleteBtn.onclick = () => deleteItem(todo.id);
                 li.appendChild(deleteBtn);
                 list.appendChild(li);
             });
