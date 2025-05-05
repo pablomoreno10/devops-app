@@ -32,7 +32,8 @@ services:
       - mongodb-data:/data/db
     env_file:
       - ./mongodb/.env
-
+    
+  
   mongo-express:
     image: mongo-express:1.0.2
     ports:
